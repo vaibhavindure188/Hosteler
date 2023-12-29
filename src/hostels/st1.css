@@ -1,0 +1,83 @@
+.main{
+    background-color: burlywood;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 20px;
+    border: 2px solid palevioletred;
+    
+}
+
+
+.hostel{
+    background-color:white ;
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid black;
+    background-image: url("background.jpg");
+    background-size:cover;
+    border-radius: 5px;
+    
+    /* color: gray; */
+}
+
+.hostel :hover{
+  border: 2px solid green transparent;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 40px;
+}
+header{
+    
+    align-items: center;
+    text-align: center;
+    background-color: rgb(39, 29, 29);
+    color: whitesmoke;
+    padding: 10px;
+    border:2px solid rgb(165, 41, 41)
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius:4%;
+    background-color: rgb(76, 69, 69);
+    padding-top: 20px;
+    margin-left: 0px;
+    /* justify-content: space-around; */
+}
+
+.btn:hover{
+    border: 2px solid greenyellow;
+    cursor: pointer;
+
+}
+
+.btn{
+    height: 30px;
+    background-color: aquamarine;
+    font-weight: 400;
+    font-size:medium;
+    margin-right: 30px ;
+    margin-bottom: 20px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    background-color: rgb(24, 19, 19);
+    color: white;
+    padding-top: 10px;
+    font-size: 17px;
+  }
